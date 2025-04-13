@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f9fafb;
+  color: #111827;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input, select, button {
+  border: 1px solid #d1d5db;
+  border-radius: 4px;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+input:focus, select:focus {
+  outline: 2px solid #3b82f6;
+}
